@@ -1,1 +1,33 @@
+//Devordagi sonlar o'yini 1
+using System;
 
+namespace Masala
+{
+  static class Program
+  {
+    static void Main(string[] args)
+    {
+      int n=Convert.ToInt32(Console.ReadLine());
+      if(n%2==0){
+        if((n/2)%2!=0)
+        {
+          Console.WriteLine("Azizxon");
+        }
+        else
+        {
+          Console.WriteLine("Jahongir");
+        }
+      }
+      else{
+        if((n/2)%2==0)
+        {
+          Console.WriteLine("Azizxon");
+        }
+        else
+        {
+          Console.WriteLine("Jahongir");
+        }
+      }      
+    }
+  }
+}
